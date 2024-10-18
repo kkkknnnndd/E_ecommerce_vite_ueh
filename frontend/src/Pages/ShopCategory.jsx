@@ -38,7 +38,7 @@ const ShopCategory = (props) => {
 
       <div className={style.news_header}>
         <h1 className={style.title}>Danh sách sản phẩm</h1>
-        <div class={style.breadcrumb}>
+        <div className={style.breadcrumb}>
           <h3 className={style.breadcrumb_1}>Trang chủ</h3>
           <i className="fa-solid fa-chevron-right"></i>
           <span className={style.breadcrumb_1}>Danh sách sản phẩm</span>

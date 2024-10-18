@@ -34,12 +34,12 @@ const InformationShop = () => {
           <p><i className="fa-brands fa-youtube"></i></p>
         </div>
       </div>
-      <div class="star-rating">
-        <span class="star" data-value="1">★</span>
-        <span class="star" data-value="2">★</span>
-        <span class="star" data-value="3">★</span>
-        <span class="star" data-value="4">★</span>
-        <span class="star" data-value="5">★</span>
+      <div className="star-rating">
+        <span className="star" data-value="1">★</span>
+        <span className="star" data-value="2">★</span>
+        <span className="star" data-value="3">★</span>
+        <span className="star" data-value="4">★</span>
+        <span className="star" data-value="5">★</span>
       </div>
       <div className="comment-container">
         <h3>Bình luận</h3>
@@ -58,7 +58,7 @@ const InformationShop = () => {
           Gửi bình luận
         </button>
       </div>
-      <div class="related-posts">
+      <div className="related-posts">
         <h3>Bài viết khác</h3>
         <ul>
           <li><p>Sách lãi chỉ tiêu thiết yếu trong cuộc sống</p></li>

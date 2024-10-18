@@ -7,11 +7,11 @@ import news3 from '../../Assets/image/news3.png'
 const SearchNew = () => {
   return (
     <div className='SearchNew'>
-      <div class="sidebar">
+      <div className="sidebar">
         <h3 className="search-title">Tìm kiếm</h3>
         <div className="search-box">
           <input className='input_1' type="text" placeholder="Từ khóa tìm kiếm" />
-          <button className='btn_1' type="submit"><i class="fa fa-search"></i></button>
+          <button className='btn_1' type="submit"><i className="fa fa-search"></i></button>
         </div>
 
         <h3 className="category-title">Danh Mục</h3>
