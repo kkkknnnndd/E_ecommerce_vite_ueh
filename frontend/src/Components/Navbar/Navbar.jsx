@@ -14,7 +14,7 @@ import { ShopContext } from "../../Context/ShopContext";
 
 
 
-const Navbar = () => {
+const Navbar = (setShowLogin) => {
 
   const [menu, setMenu] = useState("shop");
   const {getTotalCartItems} = useContext(ShopContext);
@@ -68,6 +68,7 @@ const Navbar = () => {
           <Link to='/cart'><img src={vector4} alt="" /></Link>
           <div className="nav-count2">{getTotalCartItems()}</div>
         </div>
+        {/* <button onClick={()=>setShowLogin(true)}>sign in</button> */}
       </div>
     </div>
   </div>
